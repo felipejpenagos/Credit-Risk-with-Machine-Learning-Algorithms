@@ -9,7 +9,7 @@ A key challenge addressed in the project is class imbalance—defaults represent
 - `Exploratory_data_analysis_(EDA)_CreditRiskML.ipynb`: Exploratory data analysis
 - `Feature_Engineering_CreditRiskML.ipynb`: Feature transformations and encoding
 - `modelA_Logistic_Regression_CreditRiskML.ipynb`: Logistic regression model
-- `modelA_Logistic_Regression_CreditRiskML.ipynb`: Custom model evaluation metrics
+- `Advanced_model_evaluation_LogRegression_CreditRiskML`: Custom model evaluation metrics
 - `Random_Forest_classification_CreditRiskML.ipynb`: Random forest with hyperparameter tuning
 - `Accuracy_and_Class_balancing_CreditRiskML.ipynb`: Handling class imbalance (weights, resampling, SMOTE)
 
