@@ -5,13 +5,14 @@ This project is an end-to-end case study focused on predicting loan defaults usi
 A key challenge addressed in the project is class imbalance—defaults represent only ~21% of the dataset. Several strategies were applied to handle this, including class weighting (`balanced` and manual), resampling (upsampling/downsampling), and synthetic oversampling (SMOTE). Model performance was evaluated using metrics like **accuracy**, **precision**, recall, **F1 score**, **ROC-AUC**, and **confusion matrices**. The best-performing model was a downsampled **random forest**, which provided improved recall while maintaining reasonable precision and interpretability.
 
 ## Structure
-- `Extract Transform and Load (ETL) Data CreditRiskML.ipynb`: Load and preprocess the data
-- `Exploratory_data_analysis_(EDA)_CreditRiskML.ipynb`: Exploratory data analysis
-- `Feature_Engineering_CreditRiskML.ipynb`: Feature transformations and encoding
-- `modelA_Logistic_Regression_CreditRiskML.ipynb`: Logistic regression model
-- `Advanced_model_evaluation_LogRegression_CreditRiskML`: Custom model evaluation metrics
-- `Random_Forest_classification_CreditRiskML.ipynb`: Random forest with hyperparameter tuning
-- `Accuracy_and_Class_balancing_CreditRiskML.ipynb`: Handling class imbalance (weights, resampling, SMOTE)
+- [Extract-Transform-and-Load-(ETL)-Data-CreditRiskML.ipynb](./CreditRiskML.ipynb): Load and preprocess the data  
+- [Exploratory_data_analysis_(EDA)_CreditRiskML.ipynb](./Exploratory_data_analysis_(EDA)_CreditRiskML.ipynb): Exploratory data analysis  
+- [Feature_Engineering_CreditRiskML.ipynb](./Feature_Engineering_CreditRiskML.ipynb): Feature transformations and encoding  
+- [modelA_Logistic_Regression_CreditRiskML.ipynb](./modelA_Logistic_Regression_CreditRiskML.ipynb): Logistic regression model  
+- [Advanced_model_evaluation_LogRegression_CreditRiskML.ipynb](./Advanced_model_evaluation_LogRegression_CreditRiskML.ipynb): Custom model evaluation metrics  
+- [Random_Forest_classification_CreditRiskML.ipynb](./Random_Forest_classification_CreditRiskML.ipynb): Random forest with hyperparameter tuning  
+- [Accuracy_and_Class_balancing_CreditRiskML.ipynb](./Accuracy_and_Class_balancing_CreditRiskML.ipynb): Handling class imbalance (weights, resampling, SMOTE)  
+
 
 ## Requirements
 - Python 3.x
